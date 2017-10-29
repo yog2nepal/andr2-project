@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="160dp"
+    android:background="#8BC34A">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user"
+        android:layout_marginStart="15dp"
+        android:id="@+id/imgUserpic"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnUpdatePic" />
+
+    <Button
+        android:text="Upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdatePic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imgUserpic"
+        android:layout_alignEnd="@+id/imgUserpic"
+        android:layout_alignLeft="@+id/imgUserpic"
+        android:layout_alignStart="@+id/imgUserpic" />
+
+    <TextView
+        android:text=".................."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserName"
+        android:textSize="14dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignTop="@+id/imgUserpic"
+        android:layout_toRightOf="@+id/imgUserpic"
+        android:layout_toEndOf="@+id/imgUserpic"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text=".................."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:textSize="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txtUserName"
+        android:layout_alignStart="@+id/txtUserName" />
+</RelativeLayout>
