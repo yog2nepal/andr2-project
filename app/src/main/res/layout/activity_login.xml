@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:id="@+id/activity_login"
-    tools:context="com.example.samman.locationdetactor.Login"
+    tools:context="com.example.samman.main.main.Login"
     android:background="#27b090">
 
     <EditText android:id="@+id/emailField"
